@@ -50,12 +50,6 @@ A desktop GUI application and fault-tolerant NLP pipeline for cleaning multiling
 2. Double-click `setup_windows.bat` to create the `.venv` virtual environment and install all required dependencies[cite: 1].
 3. Once setup finishes, double-click `run_windows.bat` to launch the desktop UI[cite: 1].
 
-### Updating an Existing Installation
-1. Close the running application and extract the updated ZIP archive[cite: 1].
-2. Copy the new `browser_pipeline.py`, `batch_runner.py`, and `indicbert_browser_ui.py` (along with `README_BN.md`, `VERIFY_RESULTS.md`, and `tests_recovery.py` if desired) into your existing application folder[cite: 1].
-3. **Do not delete** your existing `results` folder, `translation_cache.sqlite3`, checkpoint databases, or `ui_settings.json`[cite: 1].
-4. Run `run_windows.bat`, keep your previous input file, output folder, start row, batch settings, and source language unchanged, and click **Start / Resume**[cite: 1].
-
 ---
 
 ## Usage Guide
